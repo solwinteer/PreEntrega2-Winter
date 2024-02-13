@@ -1,0 +1,45 @@
+#about {
+    article {
+        p {
+            text-align: justify;
+        }
+
+        h2 {
+            font-family: "Kaisei Decol", serif;
+            margin-bottom: 10px;
+        }
+
+        label {
+            margin-bottom: 0;
+            font-weight: bold;
+            margin-top: 10px;
+            font-family: "Junge", cursive;
+        }
+    }
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+article {
+    margin-bottom: 70px;
+}
+
+#about article h2.mobile-only {
+    font-size: map-get($sizes, medium);
+}
+
+.alopecio-container {
+    @extend .flex-space-between;
+    text-align: right;
+}
+
+.gordelia-container {
+    @extend .flex-space-between;
+    text-align: left;
+}
+
+section:first-of-type {
+    margin-top: 50px;
+}

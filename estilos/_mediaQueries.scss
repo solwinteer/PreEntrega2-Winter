@@ -1,0 +1,125 @@
+// DESKTOP
+@media screen and (min-width: 992px) {
+    .desktop-only {
+        display: block;
+    }
+
+    #navbarNav {
+        justify-content: end;
+        margin-right: 30px;
+    }
+
+    nav a {
+        margin-left: 110px;
+    }
+
+    #logo {
+        height: auto;
+        margin-left: 30px;
+    }
+
+    #principios {
+        article {
+            justify-content: center;
+            gap: 47px;
+
+            p {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    #index section {
+        margin-bottom: 50px;
+    }
+}
+
+// TABLET
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    .tablet-only {
+        display: block;
+    }
+}
+
+// MOBILE
+@media screen and (max-width: 576px) {
+    .mobile-only {
+        display: block;
+    }
+
+    .cursos {
+        margin-left: 0;
+    }
+
+    .m-mx-0 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #logo {
+        margin-left: 15px;
+    }
+
+    #trabajos {
+        section:first-of-type {
+            padding-top: 40px;
+        }
+
+        article {
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    footer {
+        p {
+            font-size: map-get($sizes, xs);
+        }
+    }
+
+    .box-container {
+        div {
+            margin-bottom: 30px;
+        }
+    }
+
+    #principios {
+        article:first-of-type {
+            justify-content: center;
+        }
+    }
+
+    #index {
+        section {
+            h2 {
+                font-size: 22px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    #purrfect {
+        flex-direction: column-reverse;
+    }
+
+    .m-mt-70 {
+        margin-top: 70px;
+    }
+
+    .m-mt-20 {
+        margin-top: 20px;
+    }
+
+    .m-p-20 {
+        padding: 20px;
+    }
+
+    .error404 {
+        max-width: 200px;
+    }
+}

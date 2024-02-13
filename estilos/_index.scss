@@ -1,0 +1,42 @@
+#presentacion {
+    background-image: url('../assets/fondo1.svg');
+    padding: 64px;
+    color: $secondary-color;
+    width: 100%;
+    background-size: cover;
+
+    h1 {
+        font-family: 'Junge', cursive;
+        font-weight: bolder;
+        padding-left: 0;
+    }
+
+    h2 {
+        font-family: 'Kaisei Decol', serif;
+        font-size: map-get($sizes, medium);
+        font-weight: 400;
+    }
+
+    h3 {
+        font-family: 'Junge', cursive;
+        font-size: map-get($sizes, small);
+        font-weight: 400;
+        max-width: 554px;
+    }
+}
+
+#principios {
+    display: inline-block;
+    font-family: 'Kaisei Decol', serif;
+    font-weight: bolder;
+
+    .col-2 {
+        text-align: center;
+    }
+}
+
+#index main section {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
